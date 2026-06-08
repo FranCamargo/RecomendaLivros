@@ -12,6 +12,8 @@ __pycache__/
 
 # Claude Code
 .claude/
+.claude
+
 
 # Arquivos de compressão
 *.zip

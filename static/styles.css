@@ -1,0 +1,129 @@
+body {
+    background-image: url('/static/librarybackground.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main {
+    background-color: rgba(25, 77, 126, 0.75);
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(77, 127, 160, 0.45);
+    border: 2px solid rgba(255, 254, 254, 0.5);
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+section {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+input[type="radio"] {
+    margin-right: 10px;
+}
+button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(82, 138, 82);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+}
+button:hover {
+    background-color: rgb(72, 128, 72);
+}
+#resultado {
+    display: none;
+    background-color: rgba(25, 77, 126, 0.85);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(77, 127, 160, 0.45);
+    border: 2px solid rgba(255, 254, 254, 0.5);
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    color: aliceblue;
+    text-align: left;
+    overflow-y: hidden; 
+    max-height: 400px;  /* Limita a altura máxima da div */
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+.livro-info {
+    flex-grow: 1;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.livro-titulo {
+    font-weight: bold;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: calc(100% - 80px);  /* Ajusta a largura máxima para evitar que empurre a avaliação */
+}
+.livro-detalhes {
+    font-size: 0.9em;
+    color: #ccc;
+}
+.livro-avaliacao {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+    min-width: 60px;
+    text-align: center;
+    flex-shrink: 0;  /* Garante que a avaliação não seja encolhida */
+}
+footer {
+font-family: 'Times New Roman', Times, serif;
+position: fixed;
+bottom: 0;
+right: 0;
+background-color: none;
+color: #e2dfdfc5;
+padding: 10px 20px;
+text-align: right;
+width: 100%;
+}

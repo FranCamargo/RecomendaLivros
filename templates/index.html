@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendador de Livros</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <main id="conteudo">
+        <h1>Recomendador de Livros</h1>
+        <p id="descricao">Insira sua busca, escolha um critério e clique em pesquisar.</p>
+        <input type="text" name="entrada" placeholder="Digite aqui..." id="pesquisa">
+        <section id="opcoes">
+            <label><input type="radio" name="tipo" value="1" checked>Título </label>
+            <label><input type="radio" name="tipo" value="2">Autor</label>
+            <label><input type="radio" name="tipo" value="3">Categoria </label>
+        </section>
+        <div id="resultado"></div><br>
+        <button id="botaoPesquisar">Pesquisar</button>
+    </main>
+    <footer>&copy; 2025 - Projeto I&D - Franciely Camargo.</footer>
+    <script src="/static/scripts.js"></script>
+</body>
+</html>

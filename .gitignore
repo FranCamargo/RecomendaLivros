@@ -1,0 +1,17 @@
+# Ambiente virtual Python
+Include/
+Lib/
+Scripts/
+share/
+pyvenv.cfg
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Claude Code
+.claude/
+
+# Arquivos de compressão
+*.zip
